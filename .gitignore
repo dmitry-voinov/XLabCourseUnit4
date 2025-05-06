@@ -1,7 +1,10 @@
-﻿Library
+﻿.vs
+.vscode
+Library
+*.vsconfig
+*.csproj
+test_xlab.sln
+obj
 Logs
-Temp
 UserSettings
-.vsconfig
-Assembly-CSharp.csproj
-Project1.sln
+Temp
