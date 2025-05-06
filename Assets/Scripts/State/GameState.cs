@@ -19,19 +19,19 @@ namespace Golf
 
         protected virtual void OnEnable()
         {
-            foreach (var item in views)
+            foreach (var items in views)
             {
-                item.SetActive(true);
+                items.SetActive(true);
             }
         }
 
         protected virtual void OnDisable()
         {
-            foreach (var item in views)
+            foreach (var items in views)
             {
-                if (item)
+                if (items)
                 {
-                    item.SetActive(false);
+                    items.SetActive(false);
                 }
             }
         }

@@ -10,7 +10,7 @@ namespace Golf
     {
         public GameState gamePlayState;
         public TMP_Text scoreText;
-        public LevelContr LevelContr;
+        public LevelController LevelController;
 
         public void PlayGame()
         {
@@ -21,7 +21,7 @@ namespace Golf
         {
             base.OnEnable();
 
-            scoreText.text = $" HScore : {LevelContr.hightScore}";
+            scoreText.text = $" HScore : {LevelController.highScore}";
         }
     }
 }

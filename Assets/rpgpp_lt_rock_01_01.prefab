@@ -13,7 +13,8 @@ GameObject:
   - component: {fileID: 23952086938741286}
   - component: {fileID: 2566101903299793330}
   - component: {fileID: 7269389241505404336}
-  - component: {fileID: -4914066299066067280}
+  - component: {fileID: -2181025180241329413}
+  - component: {fileID: 484569746484907374}
   m_Layer: 0
   m_Name: rpgpp_lt_rock_01_01
   m_TagString: Untagged
@@ -135,7 +136,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &-4914066299066067280
+--- !u!114 &-2181025180241329413
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -148,3 +149,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isAffect: 0
+--- !u!114 &484569746484907374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1689892608009186}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38cbea7a3c19b2042a7f3570b99e2677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawner: {fileID: 0}
+  maxDelay: 2
+  minDelay: 0.5
+  delayStep: 0.1
+  score: 0
+  highScore: 0
